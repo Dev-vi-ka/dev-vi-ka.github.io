@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --yellow: #F8BF08;
+    --black: #263238;
+    
+}
+
+body{
+}
+
+.navbar{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    position: relative;
+    top: 0;
+    position: sticky;
+    background-color: white;
+    padding: 1em 0;
+    z-index: 3;
+}
+.navbar h3{
+    color: var(--yellow);
+    font-size: 38px;
+    
+}
+.nav-list{
+    margin: auto;
+}
+
+.nav-list a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 30px;
+    color: var(--black);
+}
+
+.cta-btn{
+    padding: 10px 25px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--yellow);
+    border-radius: 30px;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+.container a{
+    margin: auto;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+section{
+    max-height: 100vh;
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+}
+
+.hero img{
+    max-height: 80vh;
+    width: auto;
+    margin: auto;
+}
+
+.home-content{
+    display: flex;
+    margin-left: 1em;
+    flex-direction: column;
+}
+
+.home-content h2{
+    font-size: 48px;
+    color: var(--black);
+    margin: 5rem 0 1rem 0;
+}
+
+.yellowtxt{
+    color: var(--yellow);
+}
+
+.sub-text{
+    font-size: 16px;
+    font-weight: lighter;
+    margin-left: 8rem;   
+}
+
+.home-para{
+    font-size: 18px;
+    margin: 5em 0;
+}
+
+.title{
+    font-size: 58px;
+    margin: 5rem 0 0 5rem;
+}
+
+#about{
+    margin: 2em;
+    position: relative; 
+    margin-bottom: 200px;
+
+    
+}
+
+.clock{
+    position: absolute;
+    top: -10%;
+    left: 0%;
+    z-index: -1;
+    opacity: 0.8;
+    height: 10em;
+}
+#about .sub-text{
+    margin-left: 13em;
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5em auto;
+    min-height: 80vh;
+}
+
+.about-content p{
+    font-style: italic;
+    text-align: justify;
+    max-width: 350px;
+    min-height: 300px;
+    line-height: 25px;
+}
+
+.about-content img{
+    max-height: 300px;
+}
+.plant{
+    position: absolute;
+    bottom: 30%;
+    right: 5%;
+}
+
+#contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 50%;
+}
+
+.form input{
+    margin: 2em 0;
+    padding: 20px 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.form input:hover{
+    border: 0.5px solid var(--yellow);
+    border-radius: 5px;
+}
+
+.form .messagebox{
+    border: .5px solid var(--black);
+    padding-bottom: 10em;
+}
+
